@@ -2,4 +2,3 @@ node_modules
 .husky
 .github
 commitlint.config.js
-commit-lint.bash
