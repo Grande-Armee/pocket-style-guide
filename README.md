@@ -20,7 +20,7 @@ Pocket's style guide package: eslint, prettier & commitlint.
 npm i -D eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-import eslint-plugin-prettier @commitlint/cli @commitlint/config-conventional
 ```
 
-1. Import config files
+3. Import config files
 
 `.eslintrc.js`:
 
