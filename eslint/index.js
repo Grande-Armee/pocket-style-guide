@@ -52,5 +52,6 @@ module.exports = {
         },
       },
     ],
+    '@typescript-eslint/no-empty-function': 0,
   },
 };
