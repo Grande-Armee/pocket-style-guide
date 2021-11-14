@@ -4,7 +4,7 @@ module.exports = {
     project: 'tsconfig.json',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint/eslint-plugin'],
+  plugins: ['@typescript-eslint/eslint-plugin', 'jest', 'unicorn'],
   extends: [
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
@@ -12,6 +12,8 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:import/recommended',
     'plugin:import/typescript',
+    'plugin:jest/recommended',
+    'plugin:jest/style',
   ],
   root: true,
   env: {
@@ -53,5 +55,13 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-empty-function': 0,
+    'jest/no-conditional-expect': 0,
+    'unicorn/filename-case': [
+      'error',
+      {
+        case: 'camelCase',
+        ignore: ['DTO\\.ts$'],
+      },
+    ],
   },
 };

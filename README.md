@@ -17,7 +17,7 @@ Pocket's style guide package: eslint, prettier & commitlint.
 2. Install peer dependencies
 
 ```bash
-npm i -D eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-import eslint-plugin-prettier @commitlint/cli @commitlint/config-conventional
+npm i -D eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-import eslint-plugin-unicorn eslint-plugin-jest eslint-plugin-prettier @commitlint/cli @commitlint/config-conventional
 ```
 
 3. Import config files
