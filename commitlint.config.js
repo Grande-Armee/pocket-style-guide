@@ -1,3 +1,3 @@
-module.exports = {
-  ...require('./commitlint'),
-};
+const { createConfig } = require('./commitlint');
+
+module.exports = createConfig();

@@ -1,6 +1,6 @@
 {
   "name": "@grande-armee/pocket-style-guide",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Style guide for the Pocket project",
   "author": "Grande Armee",
   "license": "MIT",
@@ -23,6 +23,7 @@
     "@typescript-eslint/parser": "^5.3.1",
     "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jest": "^25.2.4",
     "eslint-plugin-prettier": "^4.0.0",

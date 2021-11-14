@@ -6,10 +6,14 @@ Pocket's style guide package: eslint, prettier & commitlint.
 
 1. Add `@grande-armee/pocket-style-guide` to *devDependencies* in *package.json*
 
+```bash
+npm install --save-dev @grande-armee/pocket-style-guide
+```
+
 ```json
 {
   "devDependencies": {
-    "@grande-armee/pocket-style-guide": "^1.0.0"
+    "@grande-armee/pocket-style-guide": "^2.0.0"
   }
 }
 ```
@@ -17,7 +21,7 @@ Pocket's style guide package: eslint, prettier & commitlint.
 2. Install peer dependencies
 
 ```bash
-npm i -D eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-import eslint-plugin-unicorn eslint-plugin-jest eslint-plugin-prettier @commitlint/cli @commitlint/config-conventional
+npm install --save-dev eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-unicorn eslint-plugin-jest eslint-plugin-prettier @commitlint/cli @commitlint/config-conventional
 ```
 
 3. Import config files
@@ -25,23 +29,23 @@ npm i -D eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/par
 `.eslintrc.js`:
 
 ```js
-module.exports = {
-  ...require('@grande-armee/pocket-style-guide/eslint'),
-};
+const { createConfig } = require('@grande-armee/pocket-style-guide/eslint');
+
+module.exports = createConfig([]);
 ```
 
 `.prettierrc.js`:
 
 ```js
-module.exports = {
-  ...require('@grande-armee/pocket-style-guide/prettier'),
-};
+const { createConfig } = require('@grande-armee/pocket-style-guide/prettier');
+
+module.exports = createConfig();
 ```
 
 `commitlint.config.js`:
 
 ```js
-module.exports = {
-  ...require('@grande-armee/pocket-style-guide/commitlint'),
-};
+const { createConfig } = require('@grande-armee/pocket-style-guide/commitlint');
+
+module.exports = createConfig();
 ```
