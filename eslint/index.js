@@ -71,7 +71,6 @@ const createConfig = (pathAliases = []) => {
         'error',
         {
           case: 'camelCase',
-          ignore: ['DTO\\.ts$'],
         },
       ],
     },
