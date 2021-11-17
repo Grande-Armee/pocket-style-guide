@@ -1,6 +1,6 @@
 {
   "name": "@grande-armee/pocket-style-guide",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Style guide for the Pocket project",
   "author": "Grande Armee",
   "license": "MIT",
@@ -17,10 +17,10 @@
     "url": "https://github.com/Grande-Armee/pocket-style-guide"
   },
   "peerDependencies": {
-    "@commitlint/cli": "^14.1.0",
-    "@commitlint/config-conventional": "^14.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.3.1",
-    "@typescript-eslint/parser": "^5.3.1",
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^2.5.0",
@@ -32,8 +32,8 @@
     "prettier": "^2.4.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^14.1.0",
-    "@commitlint/config-conventional": "^14.1.0",
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
     "husky": "^7.0.4"
   }
 }
